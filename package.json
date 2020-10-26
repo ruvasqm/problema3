@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "parcel ./src/public/index.html",
-    "build": "NODE_ENV=production PARCEL_WORKERS=2 parcel build src/index.html --public-url ./",
-    "heroku-postbuild": "NODE_ENV=production PARCEL_WORKERS=2 parcel build src/index.html --public-url ./"
+    "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
+    "heroku-postbuild": "parcel build src/index.html --public-url ./"
   },
   "private": true,
   "dependencies": {
@@ -22,7 +22,8 @@
     "popper.js": "1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.27.0"
   },
   "browserslist": [
     "last 3 and_chr versions",
