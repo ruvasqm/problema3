@@ -22,8 +22,7 @@
     "popper.js": "1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "sass": "^1.27.0"
+    "react-router-dom": "^5.2.0"
   },
   "browserslist": [
     "last 3 and_chr versions",
