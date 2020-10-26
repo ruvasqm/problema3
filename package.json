@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "parcel ./src/public/index.html",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
-    "heroku-postbuild": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/public/index.html --public-url ./",
+    "heroku-postbuild": "NODE_ENV=production parcel build src/public/index.html --public-url ./"
   },
   "private": true,
   "dependencies": {
